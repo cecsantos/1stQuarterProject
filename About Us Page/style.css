@@ -1,0 +1,50 @@
+/* HEADER (ABOUT US) STYLE */
+div.header {
+  overflow: hidden;
+  background-color: #B5CFC8;
+  padding: 20px 10px;
+}
+div.header p.inline{
+  float: left;
+  color: white;
+}
+/* Style the logo/link */
+div.header a.inline {
+  float: right;
+  size: 10px 10px;
+}
+/**/
+div.header p {
+  color: black;
+  margin: auto;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+div.header p#motto {
+  line-height: 5px;
+  font-size: 10px;
+  font-weight: thin;
+  font-style: italic;
+  color: white;
+}
+
+/* FOOTER STYLE */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #E0C4B4;
+  color: black;
+  line-height: 2px;
+  text-align: center;
+}
+address {
+  float: right;
+}
+address a {
+  text-decoration: none;
+  color: black;
+}

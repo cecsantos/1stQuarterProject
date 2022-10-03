@@ -1,0 +1,65 @@
+/* HEADER (HOME) STYLE */
+div.header {
+  overflow: hidden;
+  background-color: #B5CFC8;
+  padding: 10px 10px;
+}
+/* Style the header links */
+div.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  margin-right: 40px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25px;
+  border-radius: 4px;
+}
+/* Style the logo */
+div.header img {
+  float: right;
+  size: 10px 10px
+}
+/* Style mouse hover */
+div.header a:hover {
+  background-color: white;
+  color:  #B5CFC8;
+}
+
+/* TITLE STYLE */
+div.title {
+  line-height: 5px;
+}
+div.title h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #B5CFC8;
+}
+div.title h4 {
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: lighter;
+  color: black;
+}
+
+/* FOOTER STYLE */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #E0C4B4;
+  color: black;
+  line-height: 2px;
+  text-align: center;
+}
+address {
+  float: right;
+}
+address a {
+  text-decoration: none;
+  color: black;
+}
