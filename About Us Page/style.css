@@ -2,7 +2,7 @@
 div.header {
   overflow: hidden;
   background-color: #B5CFC8;
-  padding: 20px 10px;
+  padding: 25px 10px;
 }
 div.header p.inline{
   float: left;
@@ -28,6 +28,29 @@ div.header p#motto {
   font-weight: thin;
   font-style: italic;
   color: white;
+  position: relative;
+  top: 5px;
+  right: 120px;
+}
+
+/* CONTENT STYLE */
+div.content {
+  text-align: center;
+  line-height: 40px;
+}
+div.content h1 {
+  font-size: 40px;
+  color: #B5CFC8;
+}
+div.content p {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: lighter;
+  color: black;
+}
+div.content p#info {
+  display: inline;
+  margin: 100px 100px;
 }
 
 /* FOOTER STYLE */
@@ -41,10 +64,7 @@ footer {
   line-height: 2px;
   text-align: center;
 }
-address {
-  float: right;
-}
-address a {
-  text-decoration: none;
-  color: black;
+footer #date_modified {
+  position: relative;
+  left: 70px;
 }

@@ -45,6 +45,27 @@ div.title h4 {
   color: black;
 }
 
+/* CONTENT STYLE */
+div.content p {
+  display: inline;
+  vertical-align: top;
+  font-size: 20px;
+  text-decoration: none;
+}
+div.content img {
+  height: 400px;
+  width: 200px;
+}
+div.content a#link {
+  float: right;
+  text-decoration: none;
+  vertical-align: center;
+  text-align: right;
+  font-size:25px;
+  background-color: #E0C4B4;
+  color: white;
+}
+
 /* FOOTER STYLE */
 footer {
   position: fixed;
@@ -55,6 +76,10 @@ footer {
   color: black;
   line-height: 2px;
   text-align: center;
+}
+footer #date_modified {
+  position: relative;
+  left: 100px;
 }
 address {
   float: right;

@@ -2,7 +2,7 @@
 div.header {
   overflow: hidden;
   background-color: #B5CFC8;
-  padding: 20px 10px;
+  padding: 25px 10px;
 }
 div.header p.inline{
   float: left;
@@ -28,6 +28,32 @@ div.header p#motto {
   font-weight: thin;
   font-style: italic;
   color: white;
+  position: relative;
+  top: 5px;
+  right: 120px;
+}
+
+/* CONTENT STYLE */
+div.content {
+  display: inline;
+  vertical-align: center;
+  margin: 10px 10px;
+}
+div.content img {
+  text-align: left;
+  height: 500px;
+  width: 250px;
+}
+div.content h3, p {
+  display: inline;
+  vertical-align: top;
+  text-align: center;
+}
+div.content a {
+  float: right;
+  text-align: right;
+  vertical-align: top;
+  text-decoration: none;
 }
 
 /* FOOTER STYLE */
@@ -40,6 +66,10 @@ footer {
   color: black;
   line-height: 2px;
   text-align: center;
+}
+footer #date_modified {
+  position: relative;
+  left: 100px;
 }
 address {
   float: right;
