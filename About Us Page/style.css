@@ -1,5 +1,6 @@
 /* HEADER (ABOUT US) STYLE */
 div.header {
+  position: sticky;
   overflow: hidden;
   background-color: #B5CFC8;
   padding: 25px 10px;

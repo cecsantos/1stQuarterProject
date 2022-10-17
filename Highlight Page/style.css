@@ -73,6 +73,7 @@ footer #date_modified {
 }
 address {
   float: right;
+  padding: 5px;
 }
 address a {
   text-decoration: none;
