@@ -2,6 +2,8 @@
 div.header {
   position: sticky;
   top: 0;
+  width: 100%;
+  height: 50px;
   overflow: hidden;
   background-color: #B5CFC8;
   padding: 10px 10px;
@@ -21,8 +23,11 @@ div.header a {
 }
 /* Style the logo */
 div.header img {
-  float: right;
-  size: 10px 10px
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 70px;
+  width: 70px;
 }
 /* Style mouse hover */
 div.header a:hover {
@@ -51,23 +56,34 @@ div.title h4 {
 
 /* CONTENT STYLE */
 div.content p {
-  display: inline;
+  display: inline-block;
   vertical-align: top;
   font-size: 20px;
-  text-decoration: none;
+}
+div.content p#story {
+  max-width: 500px;
+  position: relative;
+  bottom: 350px;
+  left: 205px;
 }
 div.content img {
   height: 400px;
   width: 200px;
 }
 div.content a#link {
-  float: right;
-  text-decoration: none;
+  position: relative;
+  bottom: 300px;
+  left: 205px;
+ text-decoration: none;
   vertical-align: center;
-  text-align: right;
   font-size:25px;
   background-color: #E0C4B4;
   color: white;
+}
+div.content a.unavailable {
+  position: relative;
+  bottom: 370px;
+  left: 205px;
 }
 
 /* FOOTER STYLE */
@@ -76,18 +92,12 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
+  height: 1.5in;
   background-color: #E0C4B4;
   color: black;
-  line-height: 2px;
+  margin: 1px;
   text-align: center;
 }
-
-footer #date_modified {
-  position: relative;
-  left: 100px;
-}
-address {
-  float: right;
-  text-decoration: none;
-  color: black;
+#date_modified {
+  text-align: center;
 }

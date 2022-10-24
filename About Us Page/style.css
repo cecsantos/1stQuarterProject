@@ -10,9 +10,12 @@ div.header p.inline{
   color: white;
 }
 /* Style the logo/link */
-div.header a.inline {
-  float: right;
-  size: 10px 10px;
+div.header img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 80px;
+  width: 80px;
 }
 /**/
 div.header p {
@@ -49,10 +52,6 @@ div.content p {
   font-weight: lighter;
   color: black;
 }
-div.content p#info {
-  display: inline;
-  margin: 100px 100px;
-}
 
 /* FOOTER STYLE */
 footer {
@@ -67,5 +66,5 @@ footer {
 }
 footer #date_modified {
   position: relative;
-  left: 70px;
+  text-align: center;
 }
