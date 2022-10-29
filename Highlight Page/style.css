@@ -1,20 +1,31 @@
 /* HEADER (HIGHLIGHT) STYLE */
 div.header {
   overflow: hidden;
-  background-color: #B5CFC8;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: white;
   padding: 25px 10px;
 }
-div.header p.inline{
+div.header p.inline {
   float: left;
-  color: white;
+  color: #E68194;
+  font-family: cursive;
+  font-size: 18px;
+  font-weight: bold;
+}
+div.header p#motto {
+  float: left;
+  color: gray;
+  font-family: monospace;
 }
 /* Style the logo/link */
 div.header img {
   position: absolute;
   top: 0;
   right: 0;
-  height: 90px;
-  width: 90px;
+  height: 70px;
+  width: 70px;
 }
 /**/
 div.header p {
@@ -35,7 +46,6 @@ div.header p#motto {
   top: 5px;
   right: 120px;
 }
-
 /* CONTENT STYLE */
 div.content {
   display: inline;
@@ -46,50 +56,64 @@ div.content img {
   text-align: left;
   position: relative;
   top: 10px;
-  margin: 2px;
+  margin: 20px;
+  border: 5px solid white;
   height: 400px;
   width: 200px;
 }
 div.content h3 {
   display: inline;
   position: relative;
-  top: 10px;
+  margin: 20px;
+  top: 30px;
   vertical-align: top;
   text-align: left;
+  font-family: cursive;
+  font-size: 30px;
+  color: #E68194;
 }
 div.content p {
   position: absolute;
   float: left;
-  top: 130px;
-  left: 230px;
+  top: 150px;
+  left: 270px;
+  width: 50%;
+  margin: 20px;
+  font-family: monospace;
+  font-size: 20px;
+  color: gray;
 }
 div.content a {
   position: absolute;
-  bottom: 230px;
-  left: 220px;
+  bottom: 1.6in;
+  left: 40px;
+  padding: 5px;
   text-decoration: none;
   vertical-align: center;
-  font-size:25px;
-  background-color: #E0C4B4;
-  color: white;
+  font-family: monospace;
+  font-size: 20px;
+  background-color: #FFF4F4;
+  color: #E68194;
 }
 div.content a.Submission {
   position: absolute;
-  bottom: 280px;
-  left: 220px;
+  bottom: 1.6in;
+  left: 770px;
 }
 
 /* FOOTER STYLE */
 footer {
   position: fixed;
-  left: 0;
   bottom: 0;
   width: 100%;
   height: 1.5in;
-  background-color: #E0C4B4;
-  color: black;
+  background-color: white;
+  color: #E68194;
   margin: 1px;
   text-align: center;
+}
+footer a {
+  color:#E68194;
 }
 #date_modified {
   text-align: center;

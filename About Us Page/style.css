@@ -1,21 +1,31 @@
 /* HEADER (ABOUT US) STYLE */
 div.header {
-  position: sticky;
   overflow: hidden;
-  background-color: #B5CFC8;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: white;
   padding: 25px 10px;
 }
-div.header p.inline{
+div.header p.inline {
   float: left;
-  color: white;
+  color: #E68194;
+  font-family: cursive;
+  font-size: 18px;
+  font-weight: bold;
+}
+div.header p#motto {
+  float: left;
+  color: gray;
+  font-family: monospace;
 }
 /* Style the logo/link */
 div.header img {
   position: absolute;
   top: 0;
   right: 0;
-  height: 80px;
-  width: 80px;
+  height: 70px;
+  width: 70px;
 }
 /**/
 div.header p {
@@ -44,24 +54,44 @@ div.content {
 }
 div.content h1 {
   font-size: 40px;
-  color: #B5CFC8;
+  color: #E68194;
+  font-family: cursive;
 }
 div.content p {
-  font-size: 20px;
+  font-family: monospace;
+  font-size: 15px;
   font-style: italic;
-  font-weight: lighter;
-  color: black;
+  color: gray;
+}
+div.content p#info {
+  font-family: cursive;
+  font-size: 25px;
+  font-weight: bold;
+  color: #E68194;
+}
+div.content a {
+  margin: 20px;
+  padding: 5px;
+  vertical-align: center;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 20px;
+  background-color: #FFF4F4;
+  color: #E68194;
+}
+div.content a :hover {
+  color: #E68194;
 }
 
 /* FOOTER STYLE */
 footer {
   position: fixed;
-  left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #E0C4B4;
-  color: black;
-  line-height: 2px;
+  height: 1in;
+  background-color: white;
+  color: #E68194;
+  margin: 1px;
   text-align: center;
 }
 footer #date_modified {

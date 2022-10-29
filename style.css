@@ -5,19 +5,21 @@ div.header {
   width: 100%;
   height: 50px;
   overflow: hidden;
-  background-color: #B5CFC8;
+  background-color: white;
   padding: 10px 10px;
 }
 /* Style the header links */
 div.header a {
   float: left;
-  color: black;
+  color: #E68194;
   text-align: center;
   padding: 12px;
   margin-right: 40px;
   text-decoration: none;
-  font-size: 18px;
+  font-family: cursive;
   font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
   line-height: 25px;
   border-radius: 4px;
 }
@@ -31,8 +33,8 @@ div.header img {
 }
 /* Style mouse hover */
 div.header a:hover {
-  background-color: white;
-  color:  #B5CFC8;
+  background-color: #FADEE9;
+  color:  #E68194;
 }
 
 /* TITLE STYLE */
@@ -41,62 +43,76 @@ div.title {
 }
 div.title h1 {
   text-align: center;
-  font: Georgia, "Times New Roman";
+  font-family: cursive;
   font-size: 40px;
-  color: #B5CFC8;
+  color: #E68194;
 }
 div.title h4 {
   text-align: center;
-  font: "Libre Baskerville";
+  font-family: monospace;
   font-size: 15px;
   font-style: italic;
   font-weight: lighter;
-  color: black;
+  color: gray;
 }
 
 /* CONTENT STYLE */
 div.content p {
   display: inline-block;
+  position: absolute;
+  left: 250px;
   vertical-align: top;
-  font-size: 20px;
+  font-family: cursive;
+  font-size: 25px;
+  color: #E68194;
+  font-weight: bold;
 }
 div.content p#story {
   max-width: 500px;
   position: relative;
   bottom: 350px;
-  left: 205px;
+  left: 250px;
+  color: gray;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: normal;
 }
 div.content img {
+  margin: 20px;
+  border: 5px solid white;
   height: 400px;
   width: 200px;
 }
 div.content a#link {
   position: relative;
-  bottom: 300px;
-  left: 205px;
- text-decoration: none;
+  top: -3.5in;
+  right: -650px;
+  padding: 5px;
+  text-decoration: none;
   vertical-align: center;
-  font-size:25px;
-  background-color: #E0C4B4;
-  color: white;
+  font-family: monospace;
+  font-size:20px;
+  background-color: #FFF4F4;
+  color: #E68194;
 }
 div.content a.unavailable {
   position: relative;
-  bottom: 370px;
-  left: 205px;
+  right: -20px;
 }
 
 /* FOOTER STYLE */
 footer {
   position: fixed;
-  left: 0;
   bottom: 0;
   width: 100%;
   height: 1.5in;
-  background-color: #E0C4B4;
-  color: black;
+  background-color: white;
+  color: #E68194;
   margin: 1px;
   text-align: center;
+}
+footer a {
+  color:#E68194;
 }
 #date_modified {
   text-align: center;
