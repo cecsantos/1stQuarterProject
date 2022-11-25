@@ -1,5 +1,5 @@
 /* HEADER (ABOUT US) STYLE */
-div.header {
+header {
   overflow: hidden;
   position: sticky;
   top: 0;
@@ -7,44 +7,35 @@ div.header {
   background-color: white;
   padding: 25px 10px;
 }
-div.header p.inline {
+header p {
   float: left;
+  margin: auto;
   color: #E68194;
   font-family: cursive;
   font-size: 18px;
   font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
 }
-div.header p#motto {
+header p#motto {
   float: left;
   color: gray;
   font-family: monospace;
+  line-height: 5px;
+  font-size: 10px;
+  font-weight: thin;
+  font-style: italic;
+  position: relative;
+  bottom: -15px;
+  left: -130px;
 }
 /* Style the logo/link */
-div.header img {
+header img {
   position: absolute;
   top: 0;
   right: 0;
   height: 70px;
   width: 70px;
-}
-/**/
-div.header p {
-  color: black;
-  margin: auto;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: bold;
-  border-radius: 4px;
-}
-div.header p#motto {
-  line-height: 5px;
-  font-size: 10px;
-  font-weight: thin;
-  font-style: italic;
-  color: white;
-  position: relative;
-  top: 5px;
-  right: 120px;
 }
 
 /* CONTENT STYLE */
@@ -63,13 +54,17 @@ div.content p {
   font-style: italic;
   color: gray;
 }
-div.content p#info {
+
+/* NAV STYLE */
+nav p {
+  display: inline-block;
   font-family: cursive;
   font-size: 25px;
   font-weight: bold;
   color: #E68194;
 }
-div.content a {
+nav a {
+  display: inline-block;
   margin: 20px;
   padding: 5px;
   vertical-align: center;
@@ -77,9 +72,6 @@ div.content a {
   font-family: monospace;
   font-size: 20px;
   background-color: #FFF4F4;
-  color: #E68194;
-}
-div.content a :hover {
   color: #E68194;
 }
 

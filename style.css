@@ -1,5 +1,6 @@
 /* HEADER (HOME) STYLE */
-div.header {
+header {
+  z-index: 1;
   position: sticky;
   top: 0;
   width: 100%;
@@ -9,7 +10,7 @@ div.header {
   padding: 10px 10px;
 }
 /* Style the header links */
-div.header a {
+header a {
   float: left;
   color: #E68194;
   text-align: center;
@@ -24,7 +25,7 @@ div.header a {
   border-radius: 4px;
 }
 /* Style the logo */
-div.header img {
+header img {
   position: absolute;
   top: 0;
   right: 0;
@@ -32,7 +33,7 @@ div.header img {
   width: 70px;
 }
 /* Style mouse hover */
-div.header a:hover {
+header a:hover {
   background-color: #FADEE9;
   color:  #E68194;
 }
@@ -57,7 +58,7 @@ div.title h4 {
 }
 
 /* CONTENT STYLE */
-div.content p {
+div.content h3 {
   display: inline-block;
   position: absolute;
   left: 250px;
@@ -67,10 +68,11 @@ div.content p {
   color: #E68194;
   font-weight: bold;
 }
-div.content p#story {
+div.content p {
+  display: inline-block;
   max-width: 500px;
   position: relative;
-  bottom: 350px;
+  bottom: 400px;
   left: 250px;
   color: gray;
   font-family: monospace;
@@ -83,21 +85,18 @@ div.content img {
   height: 400px;
   width: 200px;
 }
-div.content a#link {
+/* NAV STYLE */
+nav a {
+  display: inline-block;
   position: relative;
   top: -3.5in;
-  right: -650px;
+  right: -800px;
   padding: 5px;
   text-decoration: none;
-  vertical-align: center;
   font-family: monospace;
   font-size:20px;
   background-color: #FFF4F4;
   color: #E68194;
-}
-div.content a.unavailable {
-  position: relative;
-  right: -20px;
 }
 
 /* FOOTER STYLE */
