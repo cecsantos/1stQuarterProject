@@ -24,6 +24,45 @@ header a {
   line-height: 25px;
   border-radius: 4px;
 }
+
+/*image sprite*/
+.sprite a {
+  display: inline;
+  position: relative;
+  top: -15px;
+}
+.PAWS {
+  background: url('Images/sprite.png') no-repeat -142px -143px;
+	width: 53px;
+	height: 53px;
+}
+.PSPCA {
+  background: url('Images/sprite.png') no-repeat -454px -145px;
+	width: 52px;
+	height: 52px;
+}
+.CARA {
+  background: url('Images/sprite.png') no-repeat -302px -144px;
+	width: 45px;
+	height: 52px;
+}
+.PAWS :hover {
+  background: url('Images/sprite.png') no-repeat -142px -220px;
+	width: 53px;
+	height: 53px;
+}
+.PSPCA :hover {
+  background: url('Images/sprite.png') no-repeat -454px -218px;
+	width: 52px;
+	height: 52px;
+}
+.CARA :hover {
+  background: url('Images/sprite.png') no-repeat -302px -221px;
+	width: 45px;
+	height: 50px;
+}
+
+
 /* Style the logo */
 header img {
   position: absolute;
