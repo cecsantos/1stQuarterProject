@@ -1,11 +1,14 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
 /* HEADER (HOME) STYLE */
 header {
-  z-index: 1;
   position: sticky;
+  overflow: hidden;
   top: 0;
   width: 100%;
   height: 50px;
-  overflow: hidden;
   background-color: white;
   padding: 10px 10px;
 }

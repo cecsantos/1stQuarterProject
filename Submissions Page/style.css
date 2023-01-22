@@ -1,4 +1,4 @@
-/* HEADER (GENERAL) STYLE */
+/* HEADER (SUBMISSIONS) STYLE */
 header {
   overflow: hidden;
   position: sticky;
@@ -36,9 +36,58 @@ header img {
   right: 0;
   height: 70px;
   width: 70px;
+  margin-right: 23px;
 }
 
 /* CONTENT STYLE */
+.container {
+  width: 600px;
+  margin: 20px auto;
+  background-color: white;
+  overflow: hidden;
+}
+.container header {
+  background-color: white;
+  color: #E68194;
+  font-family: cursive;
+  text-align: center;
+}
+#name, #petname, #petstory {
+  border: 5px solid white;
+  background-color: #FFF4F4;
+  vertical-align: center;
+  font-family: monospace;
+  color: gray;
+  width: 400px;
+  height: 50px;
+  float: right;
+}
+#petstory {
+  height: 190px;
+}
+#petpic, #petvid {
+  border: 5px solid white;
+  background-color: #FFF4F4;
+  vertical-align: center;
+  font-family: monospace;
+  color: gray;
+  width: 180px;
+  height: 150px;
+}
+#submit {
+  background-color: #E68194;
+  color: white;
+  font-size: 25px;
+  font-family: monospace;
+  font-weight: bold;
+  line-height: 50px;
+  vertical-align: center;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  border-radius: 25%;
+  margin: 10px;
+}
 
 /* NAV STYLE */
 nav li {
@@ -47,15 +96,20 @@ nav li {
 nav a {
   text-decoration: none;
   display: inline-block;
-  position: relative;
-  top: -1in;
-  right: -250px;
+  float: left clear;
+  position: absolute;
+  top: 400px;
+  margin-bottom: 5px;
   padding: 5px;
   vertical-align: center;
   font-family: monospace;
   font-size: 20px;
   background-color: #FFF4F4;
   color: #E68194;
+  width: 200px;
+}
+nav .general {
+  top: 500px;
 }
 
 /* FOOTER STYLE */

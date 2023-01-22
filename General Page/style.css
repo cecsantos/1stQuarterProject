@@ -36,6 +36,7 @@ header img {
   right: 0;
   height: 70px;
   width: 70px;
+  margin-right: 23px;
 }
 
 /* CONTENT STYLE */
@@ -51,22 +52,32 @@ header img {
 #second {
   display: inline;
   position: absolute;
-  margin-left: 100px;
-  margin-top: 20px;
+  margin: 10px;
+  margin-left: 50px;
+  margin-top: 10px;
   padding: 10px;
   background-color: #FFF4F4;
   color: #E68194;
   font-family: monospace;
+  width: 300px;
+  font-size: 10px;
+}
+#second img, #third img {
+  width: 300px;
+  height: 350px;
 }
 #third {
   display: inline;
   position: absolute;
-  margin-left: 500px;
-  margin-top: 20px;
+  margin: 10px;
+  margin-left: 450px;
+  margin-top: 10px;
   padding: 10px;
   background-color: #FFF4F4;
   color: #E68194;
   font-family: monospace;
+  width: 300px;
+  font-size: 10px;
 }
 /* NAV STYLE */
 nav li {
@@ -75,15 +86,15 @@ nav li {
 nav a {
   text-decoration: none;
   display: inline-block;
-  position: relative;
-  top: -1in;
-  right: -250px;
+  float: left clear;
+  margin-bottom: 5px;
   padding: 5px;
   vertical-align: center;
   font-family: monospace;
-  font-size: 20px;
+  font-size: 15px;
   background-color: #FFF4F4;
   color: #E68194;
+  width: 200px;
 }
 
 /* FOOTER STYLE */
